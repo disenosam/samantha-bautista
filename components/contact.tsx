@@ -52,8 +52,8 @@ export default function Contact() {
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      details: "samantha@example.com",
-      link: "mailto:samantha@example.com",
+      details: "thedisenoclub@gmail.com",
+      link: "thedisenoclub@gmail.com",
     },
     
     {
