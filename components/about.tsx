@@ -1,0 +1,82 @@
+"use client"
+
+import { useInView } from "framer-motion"
+import { useRef } from "react"
+import { motion } from "framer-motion"
+import Image from "next/image"
+
+export default function About() {
+  const ref = useRef(null)
+  const isInView = useInView(ref, { once: true, margin: "-100px" })
+
+  return (
+    <section id="about" className="py-20 bg-background">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <h2 className="font-helvetica-bold text-primary text-4xl md:text-5xl mb-4">About Me</h2>
+          <div className="w-24 h-1 bg-secondary mx-auto"></div>
+        </div>
+
+        <div ref={ref} className="grid md:grid-cols-2 gap-12 items-center">
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
+            transition={{ duration: 0.8 }}
+            className="relative aspect-square max-w-md mx-auto"
+          >
+            <div className="absolute inset-0 bg-primary/20 rounded-lg transform rotate-3"></div>
+            <div className="absolute inset-0 bg-background border-2 border-secondary rounded-lg overflow-hidden transform -rotate-3">
+              <Image
+                src="/placeholder.svg?height=600&width=600"
+                alt="Samantha Bautista"
+                width={600}
+                height={600}
+                className="object-cover w-full h-full"
+              />
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
+            <h3 className="font-bricolage text-secondary text-xl mb-6">Hello, I'm Samantha</h3>
+
+            <p className="text-muted-foreground mb-6">
+              I'm a multidisciplinary designer with over 5 years of experience creating compelling visual narratives
+              across various mediums. My passion lies in blending traditional design principles with cutting-edge
+              technology to create immersive and memorable experiences.
+            </p>
+
+            <p className="text-muted-foreground mb-6">
+              With a background in fine arts and digital design, I bring a unique perspective to every project. I
+              believe in the power of thoughtful design to solve problems, tell stories, and create emotional
+              connections.
+            </p>
+
+            <div className="grid grid-cols-2 gap-4 mb-8">
+              <div>
+                <h4 className="font-bricolage text-accent mb-2">Education</h4>
+                <p className="text-muted-foreground text-sm">BFA in Design, Rhode Island School of Design</p>
+              </div>
+              <div>
+                <h4 className="font-bricolage text-accent mb-2">Location</h4>
+                <p className="text-muted-foreground text-sm">New York City, NY</p>
+              </div>
+              <div>
+                <h4 className="font-bricolage text-accent mb-2">Experience</h4>
+                <p className="text-muted-foreground text-sm">5+ Years Professional Experience</p>
+              </div>
+              <div>
+                <h4 className="font-bricolage text-accent mb-2">Languages</h4>
+                <p className="text-muted-foreground text-sm">English, Spanish</p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
