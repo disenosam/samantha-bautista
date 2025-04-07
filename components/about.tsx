@@ -58,11 +58,11 @@ export default function About() {
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div>
                 <h4 className="font-bricolage text-accent mb-2">Education</h4>
-                <p className="text-muted-foreground text-sm">BFA in Design, Rhode Island School of Design</p>
+                <p className="text-muted-foreground text-sm">Bachelor’s Degree in Graphic Design at UAD</p>
               </div>
               <div>
                 <h4 className="font-bricolage text-accent mb-2">Location</h4>
-                <p className="text-muted-foreground text-sm">New York City, NY</p>
+                <p className="text-muted-foreground text-sm">Ensenada, BC</p>
               </div>
               <div>
                 <h4 className="font-bricolage text-accent mb-2">Experience</h4>
