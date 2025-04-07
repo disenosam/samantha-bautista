@@ -26,7 +26,7 @@ export default function Hero() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <h1 className="font-helvetica-bold text-primary text-5xl md:text-7xl mb-6">SAMANTHA BAUTISTA</h1>
 
-          <h2 className="font-bricolage text-secondary text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
+          <h2 className="font-bricolage-medium text-secondary text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
             Creative Designer & Digital Artist
           </h2>
 
