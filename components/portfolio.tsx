@@ -29,8 +29,8 @@ const projects: Project[] = [
     image: "/components/imagendecamisaypantalon.jpeg/height=600&width=800",
     description:
       "A 3D clothing collection exploring futuristic textiles and silhouettes for virtual fashion experiences.",
-    client: "Personal Project",
-    year: "2023",
+    client: "Corinthia Atelier",
+    year: "2025",
   },
   {
     id: 2,
@@ -45,7 +45,7 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: "Culinary Magazine Layout",
+    title: "Book Promotion",
     category: "editorial",
     image: "/placeholder.svg?height=600&width=800",
     description:
