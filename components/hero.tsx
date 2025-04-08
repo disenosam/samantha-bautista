@@ -24,7 +24,7 @@ export default function Hero() {
           alt="Background"
           fill
           priority
-          className="object-cover object-center opacity-100 dark:opacity-10"
+          className="object-cover object-center opacity-100 dark:opacity-0"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 to-background/95" />
       </div>
