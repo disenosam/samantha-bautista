@@ -9,7 +9,7 @@ const services = [
   {
     icon: <ShoppingBag className="h-10 w-10" />,
     title: "3D Clothing Design",
-    description: "Creating innovative digital fashion and 3D clothing models for virtual environments and e-commerce.",
+    description: "I design digital garments using Clo 3D, combining pattern-making techniques and textile simulation to create realistic results. I build each piece from scratch, exploring silhouettes, drape, and textures—ideal for virtual fashion, presentations, or social media content.",
   },
   {
     icon: <Palette className="h-10 w-10" />,
