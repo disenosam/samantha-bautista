@@ -24,7 +24,7 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    title: "Tailored Dress Pants & Shirt",
+    title: "Tailored Pants & Shirt Apparel Collection",
     category: "3d",
     image: "/clo1.jpeg?height=600&width=800",
     description:
