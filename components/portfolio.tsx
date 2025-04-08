@@ -26,7 +26,7 @@ const projects: Project[] = [
     id: 1,
     title: "Futuristic Apparel Collection",
     category: "3d",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/components/WhatsApp Image 2025-03-15 at 5.48.13 PM.jpeg/height=600&width=800",
     description:
       "A 3D clothing collection exploring futuristic textiles and silhouettes for virtual fashion experiences.",
     client: "Personal Project",
