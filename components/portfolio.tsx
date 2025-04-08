@@ -36,7 +36,7 @@ const projects: Project[] = [
     id: 2,
     title: "Eco Cosmetics Rebrand",
     category: "branding",
-    image: "/drinks.jpg?height=600&width=800",
+    image: "/?height=600&width=800",
     description:
       "Complete brand identity redesign for a sustainable cosmetics company, including logo, packaging, and brand guidelines.",
     client: "Natural Beauty Co.",
@@ -47,7 +47,7 @@ const projects: Project[] = [
     id: 3,
     title: "Alchemised Book Promotion",
     category: "editorial",
-    image: "/?height=600&width=800",
+    image: "/Printed.jpg?height=600&width=800",
     description:
       "Editorial design for a quarterly food magazine, featuring custom typography and photography direction.",
     client: "Penguin Random House",
