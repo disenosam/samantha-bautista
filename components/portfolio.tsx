@@ -47,7 +47,7 @@ const projects: Project[] = [
     id: 3,
     title: "Alchemised Book Promotion",
     category: "editorial",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/Printed.jpg?height=600&width=800",
     description:
       "Editorial design for a quarterly food magazine, featuring custom typography and photography direction.",
     client: "Taste Quarterly",
