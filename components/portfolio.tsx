@@ -31,7 +31,7 @@ const projects: Project[] = [
       "Garments simulation and patterns making for cataloging and streamlining the manufacturing process utilizing Clo3D",
     client: "Corinthia Atelier",
     year: "2025",
-    link: "#https://www.behance.net/gallery/221924221/3D-Fashion-Design-Rendering-Simulation-of-Garments",
+    link: "https://www.behance.net/gallery/221924221/3D-Fashion-Design-Rendering-Simulation-of-Garments",
   },
   {
     id: 2,
