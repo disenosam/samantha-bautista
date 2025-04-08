@@ -26,7 +26,7 @@ const projects: Project[] = [
     id: 1,
     title: "Futuristic Apparel Collection",
     category: "3d",
-    image: "/public/clo1.jpeg?height=600&width=800",
+    image: "/clo1.jpeg?height=600&width=800",
     description:
       "Garments simulation and patterns making for cataloging and streamlining the manufacturing process utilizing Clo3D",
     client: "Corinthia Atelier",
