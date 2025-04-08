@@ -14,23 +14,23 @@ const services = [
   {
     icon: <Palette className="h-10 w-10" />,
     title: "Branding",
-    description: "Developing cohesive brand identities that communicate your values and resonate with your audience.",
+    description: "Developing cohesive brand identities. By integrating AI tools into my creative process, I develop fresh, innovative concepts that capture a brand’s essence and visual voice.",
   },
   {
     icon: <BookOpen className="h-10 w-10" />,
     title: "Editorial Design",
     description:
-      "Crafting engaging layouts for print and digital publications that enhance readability and visual appeal.",
+      "Crafting engaging layouts for magazines, catalogs, and digital publications with a focus on clarity, visual hierarchy, and storytelling—making every page both functional and beautiful.",
   },
   {
     icon: <Instagram className="h-10 w-10" />,
     title: "Social Media Content",
-    description: "Producing scroll-stopping visual content optimized for engagement across social platforms.",
+    description: "Producing scroll-stopping visual content Using AI-generated assets and editing tools like CapCut, Canva, Premiere Pro, and DaVinci Resolve, I create visuals that are engaging, on-brand, and ready to perform on platforms like Instagram and TikTok.",
   },
   {
     icon: <Globe className="h-10 w-10" />,
     title: "Web Prototyping",
-    description: "Building interactive prototypes that visualize user experiences and interface designs.",
+    description: "Building user-friendly interfaces in Figma, creating clickable prototypes that bring digital experiences to life—ideal for websites, portfolios, and landing pages.",
   },
   {
     icon: <PenTool className="h-10 w-10" />,
