@@ -20,11 +20,11 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/ai_graphic_design_portfolio-removebg-preview.png?height=1080&width=1920"
+          src="/ai graphic design portfolio.png?height=1080&width=1920"
           alt="Background"
           fill
           priority
-          className="object-cover object-center opacity-20 dark:opacity-10"
+          className="object-cover object-center opacity-100 dark:opacity-10"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 to-background/95" />
       </div>
