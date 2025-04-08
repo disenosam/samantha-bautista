@@ -79,7 +79,7 @@ const projects: Project[] = [
     category: "illustration",
     image: "/placeholder.svg?height=600&width=800",
     description: "A series of illustrated characters developed for a children's educational platform.",
-    client: "Learn & Play",
+    client: "School Project",
     year: "2023",
   },
 ]
