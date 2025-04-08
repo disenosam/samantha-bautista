@@ -28,7 +28,7 @@ const projects: Project[] = [
     category: "3d",
     image: "/components/imagendecamisaypantalon.jpeg/height=600&width=800",
     description:
-      "A 3D clothing collection exploring futuristic textiles and silhouettes for virtual fashion experiences.",
+      "Garments simulation and patterns making for cataloging and streamlining the manufacturing process utilizing Clo3D",
     client: "Corinthia Atelier",
     year: "2025",
   },
