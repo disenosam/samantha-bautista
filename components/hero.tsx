@@ -1,10 +1,10 @@
 "use client"
-
 import { useEffect, useState } from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { ArrowDown } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Hero() {
   const [mounted, setMounted] = useState(false)
@@ -16,10 +16,17 @@ export default function Hero() {
   if (!mounted) return null
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center bg-background pt-16">
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-20 left-10 w-64 h-64 rounded-full bg-primary/10 blur-3xl" />
-        <div className="absolute bottom-20 right-10 w-80 h-80 rounded-full bg-secondary/10 blur-3xl" />
+    <section id="hero" className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/placeholder.svg?height=1080&width=1920"
+          alt="Background"
+          fill
+          priority
+          className="object-cover object-center opacity-20 dark:opacity-10"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/80 to-background/95" />
       </div>
 
       <div className="container relative z-10 mx-auto px-4 py-32 text-center">
