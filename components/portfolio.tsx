@@ -45,7 +45,7 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: "Book Promotion",
+    title: "Alchemised Book Promotion",
     category: "editorial",
     image: "/placeholder.svg?height=600&width=800",
     description:
