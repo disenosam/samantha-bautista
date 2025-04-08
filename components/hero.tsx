@@ -20,7 +20,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/ai graphic design portfolio.png?height=1080&width=1920"
+          src="/ai graphic design portfolio.png?height=1920&width=1080"
           alt="Background"
           fill
           priority
