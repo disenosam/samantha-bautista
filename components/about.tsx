@@ -44,7 +44,7 @@ export default function About() {
             <h3 className="font-bricolage text-secondary text-xl mb-6">Hello, I'm Samantha</h3>
 
             <p className="text-muted-foreground mb-6">
-              I'm a multidisciplinary designer with over 5 years of experience creating compelling visual narratives
+              I'm a multidisciplinary designer with over 3 years of experience creating compelling visual narratives
               across various mediums. My passion lies in blending traditional design principles with cutting-edge
               technology to create immersive and memorable experiences.
             </p>
