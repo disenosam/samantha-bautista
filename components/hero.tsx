@@ -28,6 +28,12 @@ export default function Hero() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 to-background/95" />
       </div>
+      
+        {/* Decorative Elements */}
+      <div className="absolute inset-0 overflow-hidden z-10">
+        <div className="absolute top-20 left-10 w-64 h-64 rounded-full bg-primary/10 blur-3xl" />
+        <div className="absolute bottom-20 right-10 w-80 h-80 rounded-full bg-secondary/10 blur-3xl" />
+      </div>
 
       <div className="container relative z-10 mx-auto px-4 py-32 text-center">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
