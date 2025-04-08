@@ -77,7 +77,7 @@ const projects: Project[] = [
     id: 6,
     title: "Pride and Prejudice",
     category: "illustration",
-    image: "/Pride and Prejudice.jpg?height=600&width=800",
+    image: "/Printed (1).jpg?height=600&width=800",
     description: "A series of illustrated characters developed for a children's educational platform.",
     client: "School Project",
     year: "2023",
