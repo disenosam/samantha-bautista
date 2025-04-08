@@ -50,7 +50,7 @@ const projects: Project[] = [
     image: "/Printed.jpg?height=600&width=800",
     description:
       "Editorial design for a quarterly food magazine, featuring custom typography and photography direction.",
-    client: "Taste Quarterly",
+    client: "Penguin Random House",
     year: "2023",
   },
   {
