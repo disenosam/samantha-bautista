@@ -36,7 +36,7 @@ const projects: Project[] = [
     id: 2,
     title: "Eco Cosmetics Rebrand",
     category: "branding",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/drinks.jpg?height=600&width=800",
     description:
       "Complete brand identity redesign for a sustainable cosmetics company, including logo, packaging, and brand guidelines.",
     client: "Natural Beauty Co.",
