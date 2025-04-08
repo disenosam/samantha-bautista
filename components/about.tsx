@@ -27,7 +27,7 @@ export default function About() {
             <div className="absolute inset-0 bg-primary/20 rounded-lg transform rotate-3"></div>
             <div className="absolute inset-0 bg-background border-2 border-secondary rounded-lg overflow-hidden transform -rotate-3">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/_.jpeg?height=600&width=600"
                 alt="Samantha Bautista"
                 width={600}
                 height={600}
