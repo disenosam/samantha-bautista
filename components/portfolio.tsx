@@ -75,7 +75,7 @@ const projects: Project[] = [
   },
   {
     id: 6,
-    title: "Character Series",
+    title: "Pride and Prejudice",
     category: "illustration",
     image: "/placeholder.svg?height=600&width=800",
     description: "A series of illustrated characters developed for a children's educational platform.",
