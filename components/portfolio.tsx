@@ -47,7 +47,7 @@ const projects: Project[] = [
     id: 3,
     title: "Alchemised Book Promotion",
     category: "editorial",
-    image: "/Printed.jpg?height=600&width=800",
+    image: "/?height=600&width=800",
     description:
       "Editorial design for a quarterly food magazine, featuring custom typography and photography direction.",
     client: "Penguin Random House",
@@ -55,11 +55,11 @@ const projects: Project[] = [
   },
   {
     id: 4,
-    title: "Summer Campaign",
+    title: "Bar Social Media",
     category: "social",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/drinks.jpg?height=600&width=800",
     description: "Social media campaign featuring animated posts and stories for a seasonal fashion collection.",
-    client: "Urban Threads",
+    client: "Ensenada Bar",
     year: "2023",
     link: "#",
   },
