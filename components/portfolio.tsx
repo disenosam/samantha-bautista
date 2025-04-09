@@ -80,7 +80,7 @@ const projects: Project[] = [
     title: "Pride and Prejudice",
     category: "illustration",
     image: "/Printed (1).jpg?height=600&width=800",
-    description: "A series of illustrated characters developed for a children's educational platform.",
+    description: "Adaptation of a classic novel into a 10-page children’s book, plus the front and back cover. I reimagined the story in a way that is brief, engaging, and easy to understand for young readers.",
     client: "School Project",
     year: "2023",
     link: "https://www.behance.net/gallery/217496997/PORTFOLIO-2025",
