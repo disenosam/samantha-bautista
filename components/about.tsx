@@ -28,10 +28,9 @@ export default function About() {
             <div className="absolute inset-0 bg-background border-2 border-secondary rounded-lg overflow-hidden transform -rotate-3">
               <Image
                 src="/_.jpeg?height=600&width=600"
-                alt="Samantha Bautista"
-                width={600}
-                height={600}
-                className="object-cover w-full h-full"
+                    alt="Samantha at work"
+                    fill
+                    className="object-cover"
               />
 
             </div>
