@@ -35,12 +35,12 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Eco Cosmetics Rebrand",
+    title: "Melatonin Gummy Bears",
     category: "branding",
     image: "/melamia.png?height=600&width=800",
     description:
       "Complete brand identity redesign for a sustainable cosmetics company, including logo, packaging, and brand guidelines.",
-    client: "Natural Beauty Co.",
+    client: "Melamia Beauty Co.",
     year: "2022",
     link: "#",
   },
