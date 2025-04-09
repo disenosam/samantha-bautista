@@ -60,7 +60,7 @@ const projects: Project[] = [
     title: "Bar Social Media",
     category: "social",
     image: "/drinks.jpg?height=600&width=800",
-    description: "Social media campaign featuring animated posts and stories for a seasonal fashion collection.",
+    description: "Social media campaign with AI generated images for daily content of a local bar.",
     client: "Ensenada Bar",
     year: "2023",
     link: "#",
