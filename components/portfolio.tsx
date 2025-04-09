@@ -37,7 +37,7 @@ const projects: Project[] = [
     id: 2,
     title: "Eco Cosmetics Rebrand",
     category: "branding",
-    image: "/?height=600&width=800",
+    image: "/melamia.png?height=600&width=800",
     description:
       "Complete brand identity redesign for a sustainable cosmetics company, including logo, packaging, and brand guidelines.",
     client: "Natural Beauty Co.",
