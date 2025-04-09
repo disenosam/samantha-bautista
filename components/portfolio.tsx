@@ -63,7 +63,7 @@ const projects: Project[] = [
     description: "Social media campaign with AI generated images for daily content of a local bar.",
     client: "Ensenada Bar",
     year: "2023",
-    link: "#",
+    link: "https://www.behance.net/gallery/217026837/Social-media-graphic-designer-2025",
   },
   {
     id: 5,
