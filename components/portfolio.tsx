@@ -53,7 +53,7 @@ const projects: Project[] = [
       "Editorial design for a quarterly food magazine, featuring custom typography and photography direction.",
     client: "Penguin Random House",
     year: "2023",
-    link: "#",
+    link: "https://www.behance.net/gallery/217496997/PORTFOLIO-2025",
   },
   {
     id: 4,
@@ -83,7 +83,7 @@ const projects: Project[] = [
     description: "A series of illustrated characters developed for a children's educational platform.",
     client: "School Project",
     year: "2023",
-    link: "#",
+    link: "https://www.behance.net/gallery/217496997/PORTFOLIO-2025",
   },
 ]
 
