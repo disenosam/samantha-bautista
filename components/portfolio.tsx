@@ -39,7 +39,7 @@ const projects: Project[] = [
     category: "branding",
     image: "/melamia.png?height=600&width=800",
     description:
-      "Complete brand identity launch from stcrach for  a supplements cosmetics company, including logo, packaging, and brand guidelines applying all Mexican regulations for dietary supplements.",
+      "Complete brand identity launch from stcrach for  a supplements cosmetics company, including logo, packaging, and brand guidelines applying all Mexican regulations for supplements.",
     client: "Melamia Beauty Co.",
     year: "2022",
     link: "#",
