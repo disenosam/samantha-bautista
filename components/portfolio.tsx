@@ -42,7 +42,7 @@ const projects: Project[] = [
       "Complete brand identity launch from stcrach for  a supplements cosmetics company, including logo, packaging, and brand guidelines applying all Mexican regulations for supplements.",
     client: "Melamia Beauty Co.",
     year: "2022",
-    link: "#",
+    link: "https://www.behance.net/gallery/217026837/Social-media-graphic-designer-2025",
   },
   {
     id: 3,
