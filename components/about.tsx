@@ -44,15 +44,13 @@ export default function About() {
             <h3 className="font-bricolage text-secondary text-xl mb-6">Hello, I'm Samantha</h3>
 
             <p className="text-muted-foreground mb-6">
-              I'm a multidisciplinary designer with over 3 years of experience creating compelling visual narratives
-              across various mediums. My passion lies in blending traditional design principles with cutting-edge
-              technology to create immersive and memorable experiences.
+              I'm a graphic designer with a focus on visual storytelling, branding, and digital content. My work blends design strategy, aesthetics, and emerging technologies like AI and 3D to bring ideas to life in fresh and engaging ways.
+
+
             </p>
 
             <p className="text-muted-foreground mb-6">
-              With a background in fine arts and digital design, I bring a unique perspective to every project. I
-              believe in the power of thoughtful design to solve problems, tell stories, and create emotional
-              connections.
+              With experience in branding, editorial design, social media content, and 3D fashion using Clo3D, I approach each project with curiosity and attention to detail. I enjoy exploring new tools, learning constantly, and creating visuals that connect with people on a real, human level.
             </p>
 
             <div className="grid grid-cols-2 gap-4 mb-8">
