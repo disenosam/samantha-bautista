@@ -44,8 +44,7 @@ export default function About() {
             <h3 className="font-bricolage text-secondary text-xl mb-6">Hello, I'm Samantha</h3>
 
             <p className="text-muted-foreground mb-6">
-              I'm a graphic designer with a focus on visual storytelling, branding, and digital content. My work blends design strategy, aesthetics, and emerging technologies like AI and 3D to bring ideas to life in fresh and engaging ways.
-
+Soy diseñadora gráfica con pasión por crear contenido visual estratégico para empresas y pequeños negocios. Me especializo en el desarrollo de identidad visual, diseño para redes sociales y piezas impresas, pero también me considero una creativa versátil, tambien tengo experiencia en lo editorial, edicion de video y herramientas de IA, soy  capaz de adaptarme a las necesidades específicas de cada proyecto. Me encanta contar historias a través del diseño y aportar soluciones visuales que conecten con las audiencias correctas.
 
             </p>
 
