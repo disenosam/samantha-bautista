@@ -69,7 +69,7 @@ const projects: Project[] = [
     id: 5,
     title: "AI Tools",
     category: "AI",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/circles.png?height=600&width=800",
     description: "A few projects that i made with ai tools",
     client: "Thedisenoclub",
     year: "2025",
