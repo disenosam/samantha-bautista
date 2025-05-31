@@ -44,12 +44,12 @@ export default function About() {
             <h3 className="font-bricolage text-secondary text-xl mb-6">Hello, I'm Samantha</h3>
 
             <p className="text-muted-foreground mb-6">
-Licenciada en Gestión de la Comunicación Digital con 2 años de experiencia como Diseñadora Gráfica, Social Media Manager y Diseñadora UI. 
+...
             </p>
 
             <p className="text-muted-foreground mb-6">
-Me apaciona el diseño de interfaces centradas en el usuario, combino creatividad, estrategia y dominio técnico en herramientas como Figma, ChatGPT, Canva y Procreate para interfaces intuitivas y atractivas basadas en wireframes y guías de estilo.
-            <div className="grid grid-cols-2 gap-4 mb-8">
+...
+              <div className="grid grid-cols-2 gap-4 mb-8">
               <div>
                 <h4 className="font-bricolage text-accent mb-2">Education</h4>
                 <p className="text-muted-foreground text-sm">Bachelor’s Degree in Graphic Design at UAD</p>
