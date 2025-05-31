@@ -35,20 +35,20 @@ export default function Hero() {
           <h1 className="font-helvetica-bold text-primary text-5xl md:text-7xl mb-6">SAMANTHA BAUTISTA</h1>
 
           <h2 className="font-bricolage text-secondary text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-            Graphic Designer, UI Designer & Social media manager 
+            Diseñadora Gráfica & UI | Social Media Manager
+ 
           </h2>
 
           <p className="text-muted-foreground text-lg mb-10 max-w-xl mx-auto">
-            Specializing in 3D clothing design, branding, editorial, social media content, web prototyping, and
-            illustration.
+            Especializada en crear contenido visual estratégico, gestionar redes sociales que conectan con audiencias y diseñar interfaces de usuario efectivas, responsivas y atractivas.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button asChild size="lg">
-              <Link href="#portfolio">View Portfolio</Link>
+              <Link href="#portfolio">Ver Portafolio</Link>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <Link href="#contact">Get in Touch</Link>
+              <Link href="#contact">Contacto</Link>
             </Button>
           </div>
         </motion.div>
