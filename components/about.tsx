@@ -40,7 +40,7 @@ export default function About() {
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <h3 className="font-bricolage text-secondary text-xl mb-6">Hello, I'm Samantha</h3>
+            <h3 className="font-bricolage text-secondary text-xl mb-6">Hola, soy Samantha</h3>
 
             <p className="text-muted-foreground mb-6">
               Licenciada en Gestión de la Comunicación Digital con 2 años de experiencia como Diseñadora Gráfica, Social Media Manager y Diseñadora UI. He trabajado con marcas y negocios locales gestionando redes sociales, creando contenido visual atractivo y piezas publicitarias que generaron resultados concretos.
