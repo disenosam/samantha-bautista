@@ -26,7 +26,7 @@ const projects: Project[] = [
     id: 1,
     title: "Tailored Pants & Shirt Apparel Collection",
     category: "3d",
-    image: "/clo1.jpeg?height=600&width=800",
+    image: "/Copia de portfolio.png?height=600&width=800",
     description:
       "Garments simulation and patterns making for cataloging and streamlining the manufacturing process utilizing Clo3D",
     client: "Samaneli",
