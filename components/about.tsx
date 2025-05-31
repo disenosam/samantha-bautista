@@ -57,7 +57,7 @@ export default function About() {
               </div>
               <div>
                 <h4 className="font-bricolage text-accent mb-2">Ubicación</h4>
-                <p className="text-muted-foreground text-sm">Ensenada, BC</p>
+                <p className="text-muted-foreground text-sm">CDMX/Ensenada</p>
               </div>
               <div>
                 <h4 className="font-bricolage text-accent mb-2">Experiencia</h4>
