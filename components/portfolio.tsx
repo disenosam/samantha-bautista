@@ -24,7 +24,7 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    title: "Tailored Pants & Shirt Apparel Collection",
+    title: "Diseño de interfaz de usuario (UI)",
     category: "3d",
     image: "/Copia de portfolio.png?height=600&width=800",
     description:
