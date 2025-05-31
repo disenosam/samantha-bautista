@@ -44,13 +44,11 @@ export default function About() {
             <h3 className="font-bricolage text-secondary text-xl mb-6">Hello, I'm Samantha</h3>
 
             <p className="text-muted-foreground mb-6">
-Soy diseñadora gráfica con pasión por crear contenido visual estratégico para empresas y pequeños negocios. Me especializo en el desarrollo de identidad visual, diseño para redes sociales y piezas impresas, pero también me considero una creativa versátil, tengo experiencia en lo editorial, edicion de video y herramientas de IA, soy  capaz de adaptarme a las necesidades específicas de cada proyecto. Me encanta contar historias a través del diseño y aportar soluciones visuales que conecten con las audiencias correctas.
-
+Licenciada en Gestión de la Comunicación Digital con 2 años de experiencia como Diseñadora Gráfica, Social Media Manager y Diseñadora UI. 
             </p>
 
             <p className="text-muted-foreground mb-6">
-I’m a graphic designer with a passion for creating strategic visual content for companies and small businesses. I specialize in visual identity development, social media design, and printed materials, but I also consider myself a versatile creative. I have experience in editorial design, video editing, and AI tools, and I’m fully capable of adapting to the specific needs of each project. I love telling stories through design and providing visual solutions that connect with the right audiences.            </p>
-
+Me apaciona el diseño de interfaces centradas en el usuario, combino creatividad, estrategia y dominio técnico en herramientas como Figma, ChatGPT, Canva y Procreate para interfaces intuitivas y atractivas basadas en wireframes y guías de estilo.
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div>
                 <h4 className="font-bricolage text-accent mb-2">Education</h4>
