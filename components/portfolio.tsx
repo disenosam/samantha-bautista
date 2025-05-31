@@ -8,7 +8,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } f
 import { Button } from "@/components/ui/button"
 import { ExternalLink } from "lucide-react"
 
-type Category = "all" | "3d" | "branding" | "editorial" | "social" | "web" | "illustration"
+type Category = "all" | "UI" | "branding" | "editorial" | "social" | "AI" | "illustration"
 
 type Project = {
   id: number
