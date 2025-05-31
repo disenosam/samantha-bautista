@@ -39,7 +39,7 @@ const projects: Project[] = [
     category: "branding",
     image: "/melamia.png?height=600&width=800",
     description:
-      "Complete brand identity launch from stcrach for  a supplements cosmetics company, including logo, packaging, and brand guidelines applying all Mexican regulations for supplements.",
+      "Complete brand identity launch from scratch for a supplements cosmetics company, including logo, packaging, and brand guidelines applying all Mexican regulations for supplements.",
     client: "Melamia Beauty Co.",
     year: "2022",
     link: "https://www.behance.net/gallery/217026837/Social-media-graphic-designer-2025",
@@ -70,7 +70,7 @@ const projects: Project[] = [
     title: "AI Tools",
     category: "AI",
     image: "/circles.png?height=600&width=800",
-    description: "A few projects that i made with ai tools",
+    description: "A few projects that I made with AI tools.",
     client: "Thedisenoclub",
     year: "2025",
     link: "https://www.behance.net/gallery/222275575/AI-Graphic-Desing",
@@ -87,6 +87,16 @@ const projects: Project[] = [
   },
 ]
 
+const categories: { value: Category; label: string }[] = [
+  { value: "all", label: "All Work" },
+  { value: "UI", label: "UI" },
+  { value: "branding", label: "Branding" },
+  { value: "editorial", label: "Editorial" },
+  { value: "social", label: "Social Media" },
+  { value: "AI", label: "AI" },
+  { value: "illustration", label: "Illustration" },
+]
+
 export default function Portfolio() {
   const [activeCategory, setActiveCategory] = useState<Category>("all")
   const [selectedProject, setSelectedProject] = useState<Project | null>(null)
@@ -95,16 +105,6 @@ export default function Portfolio() {
 
   const filteredProjects =
     activeCategory === "all" ? projects : projects.filter((project) => project.category === activeCategory)
-
-  const categories: { value: Category; label: string }[] = [
-    { value: "all", label: "All Work" },
-    { value: "3d", label: "3D Clothing" },
-    { value: "branding", label: "Branding" },
-    { value: "editorial", label: "Editorial" },
-    { value: "social", label: "Social Media" },
-    { value: "web", label: "Web Design" },
-    { value: "illustration", label: "Illustration" },
-  ]
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -211,26 +211,3 @@ export default function Portfolio() {
 
                     {selectedProject.year && (
                       <div>
-                        <h4 className="font-bricolage text-accent text-sm mb-1">Year</h4>
-                        <p className="text-muted-foreground">{selectedProject.year}</p>
-                      </div>
-                    )}
-                  </div>
-
-                  {selectedProject.link && (
-                    <Button asChild variant="outline">
-                      <a href={selectedProject.link} target="_blank" rel="noopener noreferrer">
-                        View Project <ExternalLink className="ml-2 h-4 w-4" />
-                      </a>
-                    </Button>
-                  )}
-                </div>
-              </div>
-            </>
-          )}
-        </DialogContent>
-      </Dialog>
-    </section>
-  )
-}
-
