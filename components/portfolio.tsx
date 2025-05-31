@@ -211,3 +211,25 @@ export default function Portfolio() {
 
                     {selectedProject.year && (
                       <div>
+                        <h4 className="font-bricolage text-accent text-sm mb-1">Year</h4>
+                        <p className="text-muted-foreground">{selectedProject.year}</p>
+                      </div>
+                    )}
+                  </div>
+
+                  {selectedProject.link && (
+                    <Button asChild variant="outline">
+                      <a href={selectedProject.link} target="_blank" rel="noopener noreferrer">
+                        View Project <ExternalLink className="ml-2 h-4 w-4" />
+                      </a>
+                    </Button>
+                  )}
+                </div>
+              </div>
+            </>
+          )}
+        </DialogContent>
+      </Dialog>
+    </section>
+  )
+}
