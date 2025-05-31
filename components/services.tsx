@@ -8,34 +8,34 @@ import { Palette, ShoppingBag, BookOpen, Instagram, Globe, PenTool } from "lucid
 const services = [
   {
     icon: <ShoppingBag className="h-10 w-10" />,
-    title: "AI Tools",
-    description: "Designing digital garments using Clo 3D, combining pattern-making techniques and textile simulation to create realistic results. I build each piece from scratch, exploring silhouettes, drape, and textures—ideal for virtual fashion, presentations, or social media content.",
+    title: "Herramientas con IA",
+    description: "Diseño prendas digitales usando Clo 3D, combinando técnicas de patronaje y simulación textil para lograr resultados realistas. Construyo cada pieza desde cero, explorando siluetas, caída y texturas—ideal para moda virtual, presentaciones o contenido para redes sociales.",
   },
   {
     icon: <Palette className="h-10 w-10" />,
     title: "Branding",
-    description: "Developing cohesive brand identities. By integrating AI tools into my creative process, I develop fresh, innovative concepts that capture a brand’s essence and visual voice.",
+    description: "Desarrollo identidades visuales coherentes. Al integrar herramientas de inteligencia artificial en mi proceso creativo, logro conceptos innovadores que capturan la esencia y voz visual de cada marca.",
   },
   {
     icon: <BookOpen className="h-10 w-10" />,
-    title: "Editorial Design",
+    title: "Diseño Editorial",
     description:
-      "Crafting engaging layouts for magazines, catalogs, and digital publications with a focus on clarity, visual hierarchy, and storytelling—making every page both functional and beautiful.",
+      "Diseño composiciones atractivas para revistas, catálogos y publicaciones digitales, con un enfoque en claridad, jerarquía visual y narrativa—haciendo que cada página sea funcional y estética.",
   },
   {
     icon: <Instagram className="h-10 w-10" />,
-    title: "Social Media Content",
-    description: "Producing scroll-stopping visual content Using AI-generated assets and editing tools like CapCut, Canva, Premiere Pro, and DaVinci Resolve, I create visuals that are engaging, on-brand, and ready to perform on platforms like Instagram and TikTok.",
+    title: "Contenido para Redes Sociales",
+    description: "Produzco contenido visual llamativo utilizando recursos generados con IA y herramientas como CapCut, Canva, Premiere Pro y DaVinci Resolve. Creo piezas atractivas, coherentes con la marca y optimizadas para plataformas como Instagram y TikTok.",
   },
   {
     icon: <Globe className="h-10 w-10" />,
-    title: "Web Prototyping",
-    description: "Building user-friendly interfaces in Figma, creating clickable prototypes that bring digital experiences to life—ideal for websites, portfolios, and landing pages.",
+    title: "Prototipado Web",
+    description: "Diseño interfaces amigables en Figma, creando prototipos interactivos que dan vida a experiencias digitales—ideales para sitios web, portafolios y páginas de aterrizaje.",
   },
   {
     icon: <PenTool className="h-10 w-10" />,
-    title: "Illustration",
-    description: "Creating custom illustrations and visual assets that tell your story with a distinctive style.",
+    title: "Ilustración",
+    description: "Creo ilustraciones personalizadas y recursos visuales que cuentan tu historia con un estilo distintivo.",
   },
 ]
 
@@ -62,7 +62,7 @@ export default function Services() {
     <section id="services" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-helvetica-bold text-primary text-4xl md:text-5xl mb-4">My Servicios</h2>
+          <h2 className="font-helvetica-bold text-primary text-4xl md:text-5xl mb-4">Mis Servicios</h2>
           <p className="font-bricolage text-secondary text-lg max-w-2xl mx-auto">
             Explora mi trabajo en diferentes áreas del diseño gráfico
           </p>
