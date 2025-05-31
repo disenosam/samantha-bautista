@@ -25,10 +25,10 @@ const projects: Project[] = [
   {
     id: 1,
     title: "Diseño de interfaz de usuario (UI)",
-    category: "3d",
+    category: "UI",
     image: "/Copia de portfolio.png?height=600&width=800",
     description:
-      "Garments simulation and patterns making for cataloging and streamlining the manufacturing process utilizing Clo3D",
+      "Prototipo desarrollado en Figma como propuesta de interfaz intuitiva y atractiva para una diseñadora gráfica que buscaba renovar su presencia digital",
     client: "Samaneli",
     year: "2025",
     link: "https://www.behance.net/gallery/227130361/UI-PORFTFOLIO",
