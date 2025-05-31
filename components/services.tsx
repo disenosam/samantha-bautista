@@ -9,7 +9,7 @@ const services = [
   {
     icon: <ShoppingBag className="h-10 w-10" />,
     title: "Herramientas con IA",
-    description: "Diseño prendas digitales usando Clo 3D, combinando técnicas de patronaje y simulación textil para lograr resultados realistas. Construyo cada pieza desde cero, explorando siluetas, caída y texturas—ideal para moda virtual, presentaciones o contenido para redes sociales.",
+    description: "Integro inteligencia artificial en mis procesos creativos para optimizar tiempos, explorar estilos únicos y generar ideas visuales innovadoras. Desde la generación de imágenes hasta la edición automatizada, uso estas herramientas como aliadas para llevar cada proyecto a otro nivel.",
   },
   {
     icon: <Palette className="h-10 w-10" />,
