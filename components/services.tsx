@@ -8,7 +8,7 @@ import { Palette, ShoppingBag, BookOpen, Instagram, Globe, PenTool } from "lucid
 const services = [
   {
     icon: <ShoppingBag className="h-10 w-10" />,
-    title: "3D Clothing Design",
+    title: "AI Tools",
     description: "Designing digital garments using Clo 3D, combining pattern-making techniques and textile simulation to create realistic results. I build each piece from scratch, exploring silhouettes, drape, and textures—ideal for virtual fashion, presentations, or social media content.",
   },
   {
@@ -62,9 +62,9 @@ export default function Services() {
     <section id="services" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-helvetica-bold text-primary text-4xl md:text-5xl mb-4">My Services</h2>
+          <h2 className="font-helvetica-bold text-primary text-4xl md:text-5xl mb-4">My Servicios</h2>
           <p className="font-bricolage text-secondary text-lg max-w-2xl mx-auto">
-            Creative solutions for modern challenges
+            Explora mi trabajo en diferentes áreas del diseño gráfico
           </p>
           <div className="w-24 h-1 bg-secondary mx-auto mt-4"></div>
         </div>
