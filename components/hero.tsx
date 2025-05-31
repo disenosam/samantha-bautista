@@ -35,7 +35,7 @@ export default function Hero() {
           <h1 className="font-helvetica-bold text-primary text-5xl md:text-7xl mb-6">SAMANTHA BAUTISTA</h1>
 
           <h2 className="font-bricolage text-secondary text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-            Creative Designer & Digital Artist
+            Graphic Designer, UI Designer & Social media manager 
           </h2>
 
           <p className="text-muted-foreground text-lg mb-10 max-w-xl mx-auto">
