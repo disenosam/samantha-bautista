@@ -16,7 +16,7 @@ export default function Footer() {
           </div>
 
           <div className="flex space-x-4">
-            <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <Link href="https://www.instagram.com/sxmtero/" className="text-muted-foreground hover:text-primary transition-colors">
               <Instagram className="h-5 w-5" />
               <span className="sr-only">Instagram</span>
             </Link>
