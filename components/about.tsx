@@ -28,11 +28,10 @@ export default function About() {
             <div className="absolute inset-0 bg-background border-2 border-secondary rounded-lg overflow-hidden transform -rotate-3">
               <Image
                 src="/_.jpeg?height=600&width=600"
-                    alt="Samantha at work"
-                    fill
-                    className="object-cover"
+                alt="Samantha at work"
+                fill
+                className="object-cover"
               />
-
             </div>
           </motion.div>
 
@@ -44,27 +43,29 @@ export default function About() {
             <h3 className="font-bricolage text-secondary text-xl mb-6">Hello, I'm Samantha</h3>
 
             <p className="text-muted-foreground mb-6">
-...
+              Licenciada en Gestión de la Comunicación Digital con 2 años de experiencia como Diseñadora Gráfica, Social Media Manager y Diseñadora UI. He trabajado con marcas y negocios locales gestionando redes sociales, creando contenido visual atractivo y piezas publicitarias que generaron resultados concretos.
             </p>
 
             <p className="text-muted-foreground mb-6">
-...
-              <div className="grid grid-cols-2 gap-4 mb-8">
+              Me apasiona el diseño de interfaces centradas en el usuario, combino creatividad, estrategia y dominio técnico en herramientas como Figma, ChatGPT, Canva y Procreate para interfaces intuitivas y atractivas basadas en wireframes y guías de estilo.
+            </p>
+
+            <div className="grid grid-cols-2 gap-4 mb-8">
               <div>
-                <h4 className="font-bricolage text-accent mb-2">Education</h4>
-                <p className="text-muted-foreground text-sm">Bachelor’s Degree in Graphic Design at UAD</p>
+                <h4 className="font-bricolage text-accent mb-2">Educación</h4>
+                <p className="text-muted-foreground text-sm">Licenciatura en Diseño Gráfico en UAD</p>
               </div>
               <div>
-                <h4 className="font-bricolage text-accent mb-2">Location</h4>
+                <h4 className="font-bricolage text-accent mb-2">Ubicación</h4>
                 <p className="text-muted-foreground text-sm">Ensenada, BC</p>
               </div>
               <div>
-                <h4 className="font-bricolage text-accent mb-2">Experience</h4>
-                <p className="text-muted-foreground text-sm">3+ Years Professional Experience</p>
+                <h4 className="font-bricolage text-accent mb-2">Experiencia</h4>
+                <p className="text-muted-foreground text-sm">2+ años de experiencia profesional</p>
               </div>
               <div>
-                <h4 className="font-bricolage text-accent mb-2">Languages</h4>
-                <p className="text-muted-foreground text-sm">English, Spanish</p>
+                <h4 className="font-bricolage text-accent mb-2">Idiomas</h4>
+                <p className="text-muted-foreground text-sm">Español, Inglés</p>
               </div>
             </div>
           </motion.div>
